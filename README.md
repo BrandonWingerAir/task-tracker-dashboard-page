@@ -1,5 +1,9 @@
 # Web Design Example (HTML/CSS)
 
-# Dashboard Page
+## Demo
 
-![Mock-up](https://i.ibb.co/RDp211B/html-and-css-brandon-winger-air.png)
+https://brandonwingerair.github.io/task-tracker-dashboard-page/
+
+# Case Study
+
+![Mock-up](https://i.ibb.co/fDLNGyv/screenshot-design-by-firman-jabbar.png)

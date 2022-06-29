@@ -6,98 +6,123 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>AppTrack - Software Issue & Bug Tracking</title>
     <link rel="stylesheet" href="style.css">
-    <!-- Font Link -->
+    <!-- Font Links -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400&display=swap" rel="stylesheet">
 </head>
 <body>
     <div id="app-container">
         <div id="app">
+            <!-- Navigation Menu -->
             <nav>
                 <header>
                     <img src="map-pointer-railway-track.svg" alt="">
                     <h1>AppTrack</h1>
                 </header>
 
-                <!-- Top Navigation -->
+                <!-- Top Links -->
                 <ul class="nav-list">
                     <li>
-                        <img src="https://img.icons8.com/windows/96/000000/overview-pages-4.png"/>
+                        <img src="https://img.icons8.com/ios/50/000000/dashboard.png"/>
                         <a href="#!">Overview</a>
                     </li>
                     <li id="nav-item-active">
                         <div id="nav-btn-container">
-                            <img src="https://img.icons8.com/ios-glyphs/90/000000/lightning-bolt--v1.png"/>
+                            <img src="https://img.icons8.com/ios-glyphs/90/000000/cloud.png"/>
                             <a href="#!">Projects</a>
                             <img id="nav-caret" src="https://img.icons8.com/ios-glyphs/90/000000/sort-down.png"/>
                         </div>
 
                         <ul id="sub-nav">
                             <li>
-                                    <img src="https://img.icons8.com/ios/100/000000/file--v1.png"/>
-                                    <a href="#!">rojoo.com</a>
+                                <img src="https://img.icons8.com/ios/100/000000/file--v1.png"/>
+                                <a href="#!">rojoo.com</a>
                             </li>
                             <li id="sub-item-active">
-                                    <img src="https://img.icons8.com/ios/100/000000/file--v1.png"/>
-                                    <a href="#!">tanaman.tech</a>
+                                <img src="https://img.icons8.com/ios/100/000000/file--v1.png"/>
+                                <a href="#!">tanaman.tech</a>
+                                <img 
+                                    id="nav-ellipsis"
+                                    src="https://img.icons8.com/external-tal-revivo-bold-tal-revivo/96/000000/external-ellipsis-horizontal-menu-interface-button-for-application-basic-bold-tal-revivo.png"
+                                />
                             </li>
                             <li>
-                                    <img src="https://img.icons8.com/ios/100/000000/file--v1.png"/>
-                                    <a href="#!">lender.ca</a>
+                                <img src="https://img.icons8.com/ios/100/000000/file--v1.png"/>
+                                <a href="#!">lender.ca</a>
                             </li>
                         </ul>
                     </li>
                     <li>
-                            <img src="https://img.icons8.com/pastel-glyph/64/000000/spacex-starship.png"/>
-                            <a href="#!">Releases</a>
-                            <span>16</span>
+                        <img src="https://img.icons8.com/external-tanah-basah-detailed-outline-tanah-basah/48/000000/external-rocket-user-interface-tanah-basah-detailed-outline-tanah-basah.png"/>
+                        <a href="#!">Releases</a>
+                        <span class="nav-updates">16</span>
                     </li>
                     <li>
-                            <img src="https://img.icons8.com/external-kiranshastry-lineal-kiranshastry/64/000000/external-bug-interface-kiranshastry-lineal-kiranshastry.png"/>
-                            <a href="#!">Reports</a>
-                            <span>24</span>
+                        <img src="https://img.icons8.com/external-kiranshastry-lineal-kiranshastry/64/000000/external-bug-interface-kiranshastry-lineal-kiranshastry.png"/>
+                        <a href="#!">Reports</a>
+                        <span class="nav-updates">24</span>
                     </li>
                     <li>
-                            <img src="https://img.icons8.com/ios/50/000000/topic.png"/>
-                            <a href="#!">Messages</a>
-                            <span>128</span>
+                        <img src="https://img.icons8.com/ios/50/000000/topic.png"/>
+                        <a href="#!">Messages</a>
+                        <span class="nav-updates">128</span>
                     </li>
                     <li>
-                            <img src="https://img.icons8.com/external-flatart-icons-outline-flatarticons/64/000000/external-setting-basic-ui-elements-flatart-icons-outline-flatarticons.png"/>
-                            <a href="#!">Settings</a>
+                        <img src="https://img.icons8.com/external-flatart-icons-outline-flatarticons/64/000000/external-setting-basic-ui-elements-flatart-icons-outline-flatarticons.png"/>
+                        <a href="#!">Settings</a>
                     </li>
                 </ul>
 
-                <!-- Bottom Navigation -->
+                <!-- Bottom Links -->
                 <ul class="nav-list">
                     <li>
-                        <div class="nav-btn">
-                            <img src="https://img.icons8.com/ios/100/000000/headset.png"/>
-                            <a href="#!">Help Center</a>
-                        </div>
+                        <img src="https://img.icons8.com/ios/100/000000/headset.png"/>
+                        <a href="#!">Help Center</a>
                     </li>
                     <li>
-                        <div class="nav-btn">
-                            <img src="https://img.icons8.com/external-tanah-basah-basic-outline-tanah-basah/96/000000/external-exit-essentials-tanah-basah-basic-outline-tanah-basah.png"/>
-                            <a href="#!">Logout</a>
-                        </div>
+                        <img src="https://img.icons8.com/external-tanah-basah-basic-outline-tanah-basah/96/000000/external-exit-essentials-tanah-basah-basic-outline-tanah-basah.png"/>
+                        <a href="#!">Logout</a>
                     </li>
                 </ul>
             </nav>
+
+            <!-- Content Section -->
             <main>
                 <header>
-                    <h2>Project Name</h2>
+                    <div id="content-heading">
+                        <h2>tanaman.id</h2>
+                        <h3>Created on June 28, 2022</h3>
+                    </div>
                     <p>Search</p>
                 </header>
-                <section>
-                    <h3>To Do</h3>
-                    <h3>In Progress</h3>
-                    <h3>In Review</h3>
-                    <h3>Done</h3>
+                <section id="main-content">
+                    <div class="column-header">
+                        <div>
+                            <h4>To Do</h4>
+                            <h5>2 tasks available</h5>
+                        </div>
+                        <div class="column-menu-btn">
+                            <img class="task-ellipsis" src="https://img.icons8.com/external-tal-revivo-bold-tal-revivo/96/000000/external-ellipsis-horizontal-menu-interface-button-for-application-basic-bold-tal-revivo.png"/>
+                        </div>
+                    </div>
+                    <div>
+                        <h4>In Progress</h4>
+                        <h5>4 tasks available</h5>
+                    </div>
+                    <div>
+                        <h4>In Review</h4>
+                        <h5>4 tasks available</h5>
+                    </div>
+                    <div>
+                        <h4>Done</h4>
+                        <h5>2 tasks available</h5>
+                    </div>
                 </section>
             </main>
         </div>
+
+        <!-- Footer -->
         <footer>
             <a href="https://dribbble.com/shots/16482764-Testify-Issue-Bug-Tracking-Dashboard">
                 App Design: Firman Jabbar | 
@@ -106,7 +131,7 @@
                 HTML/CSS: Brandon Winger-Air | 
             </a>
             <a href="https://www.vecteezy.com/free-vector/train-tracks">
-                Train Tracks Vectors by Vecteezy
+                Vectors by Vecteezy
             </a>
         </footer>
     </div>
