@@ -9,7 +9,7 @@
     <!-- Font Links -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500&display=swap" rel="stylesheet">
 </head>
 <body>
     <div id="app-container">
@@ -27,7 +27,7 @@
                         <img src="https://img.icons8.com/ios/50/000000/dashboard.png"/>
                         <a href="#!">Overview</a>
                     </li>
-                    <li id="nav-item-active">
+                    <li class="nav-item-active">
                         <div id="nav-btn-container">
                             <img src="https://img.icons8.com/ios-glyphs/90/000000/cloud.png"/>
                             <a href="#!">Projects</a>
@@ -97,26 +97,224 @@
                     <p>Search</p>
                 </header>
                 <section id="main-content">
-                    <div class="column-header">
-                        <div>
-                            <h4>To Do</h4>
-                            <h5>2 tasks available</h5>
+                    <div class="column">
+                        <div class="column-header">
+                            <div>
+                                <h4>To Do</h4>
+                                <h5>2 tasks available</h5>
+                            </div>
+                            <div class="column-menu-btn">
+                                <img class="task-ellipsis" src="https://img.icons8.com/external-tal-revivo-bold-tal-revivo/96/000000/external-ellipsis-horizontal-menu-interface-button-for-application-basic-bold-tal-revivo.png"/>
+                            </div>
                         </div>
-                        <div class="column-menu-btn">
-                            <img class="task-ellipsis" src="https://img.icons8.com/external-tal-revivo-bold-tal-revivo/96/000000/external-ellipsis-horizontal-menu-interface-button-for-application-basic-bold-tal-revivo.png"/>
+
+                        <button>
+                            <span class="add-task-icon">+</span>add new
+                        </button>
+
+                        <hr>
+
+                        <div class="cards-container">
+                            <div class="card">
+                                <h6>Task</h6>
+                                <p class="task-info">Brandon Winger-Air, 6h ago</p>
+
+                                <p class="task-desc">
+                                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatibus, porro.
+                                </p>
+
+                                <div class="card-footer">
+                                    <span class="ui-category">#UIDESIGN</span>
+                                    <div class="card-updates">
+                                        <img src="https://img.icons8.com/color/48/000000/topic--v1.png"/>
+                                        <span>12</span>
+                                    </div>
+                                </div>
+                            </div>
+
+                    
+                            <div class="card card-selected">
+                                <h6>Task</h6>
+                                <p class="task-info">Brandon Winger-Air, 6h ago</p>
+    
+                                <p class="task-desc">
+                                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatibus, porro.
+                                </p>
+    
+                                <div class="card-footer">
+                                    <span class="dev-category">#DEVELOPMENT</span>
+                                    <div class="card-updates">
+                                        <img src="https://img.icons8.com/color/48/000000/topic--v1.png"/>
+                                        <span>16</span>
+                                    </div>
+                                </div>
+                            </div>
                         </div>
                     </div>
-                    <div>
-                        <h4>In Progress</h4>
-                        <h5>4 tasks available</h5>
+
+                    <div class="column">
+                        <div class="column-header">
+                            <div>
+                                <h4>In Progress</h4>
+                                <h5>4 tasks available</h5>
+                            </div>
+                            <div class="column-menu-btn">
+                                <img class="task-ellipsis" src="https://img.icons8.com/external-tal-revivo-bold-tal-revivo/96/000000/external-ellipsis-horizontal-menu-interface-button-for-application-basic-bold-tal-revivo.png"/>
+                            </div>
+                        </div>
+
+                        <button>
+                            <span class="add-task-icon">+</span>add new
+                        </button>
+
+                        <hr>
+
+                        <div class="cards-container">
+                            <div class="card">
+                                <h6>Task</h6>
+                                <p class="task-info">Brandon Winger-Air, 6h ago</p>
+
+                                <p class="task-desc">
+                                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatibus, porro.
+                                </p>
+
+                                <div class="card-footer">
+                                    <span class="ui-category">#UIDESIGN</span>
+                                    <div class="card-updates">
+                                        <img src="https://img.icons8.com/color/48/000000/topic--v1.png"/>
+                                        <span>12</span>
+                                    </div>
+                                </div>
+                            </div>
+
+                    
+                            <div class="card">
+                                <h6>Task</h6>
+                                <p class="task-info">Brandon Winger-Air, 6h ago</p>
+    
+                                <p class="task-desc">
+                                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatibus, porro.
+                                </p>
+    
+                                <div class="card-footer">
+                                    <span class="dev-category">#DEVELOPMENT</span>
+                                    <div class="card-updates">
+                                        <img src="https://img.icons8.com/color/48/000000/topic--v1.png"/>
+                                        <span>16</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
                     </div>
-                    <div>
-                        <h4>In Review</h4>
-                        <h5>4 tasks available</h5>
+
+                    <div class="column">
+                        <div class="column-header">
+                            <div>
+                                <h4>In Review</h4>
+                                <h5>4 tasks available</h5>
+                            </div>
+                            <div class="column-menu-btn">
+                                <img class="task-ellipsis" src="https://img.icons8.com/external-tal-revivo-bold-tal-revivo/96/000000/external-ellipsis-horizontal-menu-interface-button-for-application-basic-bold-tal-revivo.png"/>
+                            </div>
+                        </div>
+
+                        <button>
+                            <span class="add-task-icon">+</span>add new
+                        </button>
+
+                        <hr>
+
+                        <div class="cards-container">
+                            <div class="card">
+                                <h6>Task</h6>
+                                <p class="task-info">Brandon Winger-Air, 6h ago</p>
+
+                                <p class="task-desc">
+                                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatibus, porro.
+                                </p>
+
+                                <div class="card-footer">
+                                    <span class="ui-category">#UIDESIGN</span>
+                                    <div class="card-updates">
+                                        <img src="https://img.icons8.com/color/48/000000/topic--v1.png"/>
+                                        <span>12</span>
+                                    </div>
+                                </div>
+                            </div>
+
+                    
+                            <div class="card">
+                                <h6>Task</h6>
+                                <p class="task-info">Brandon Winger-Air, 6h ago</p>
+    
+                                <p class="task-desc">
+                                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatibus, porro.
+                                </p>
+    
+                                <div class="card-footer">
+                                    <span class="dev-category">#DEVELOPMENT</span>
+                                    <div class="card-updates">
+                                        <img src="https://img.icons8.com/color/48/000000/topic--v1.png"/>
+                                        <span>16</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
                     </div>
-                    <div>
-                        <h4>Done</h4>
-                        <h5>2 tasks available</h5>
+
+                    <div class="column">
+                        <div class="column-header">
+                            <div>
+                                <h4>Done</h4>
+                                <h5>2 tasks available</h5>
+                            </div>
+                            <div class="column-menu-btn">
+                                <img class="task-ellipsis" src="https://img.icons8.com/external-tal-revivo-bold-tal-revivo/96/000000/external-ellipsis-horizontal-menu-interface-button-for-application-basic-bold-tal-revivo.png"/>
+                            </div>
+                        </div>
+
+                        <button>
+                            <span class="add-task-icon">+</span>add new
+                        </button>
+
+                        <hr>
+
+                        <div class="cards-container">
+                            <div class="card">
+                                <h6>Task</h6>
+                                <p class="task-info">Brandon Winger-Air, 6h ago</p>
+
+                                <p class="task-desc">
+                                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatibus, porro.
+                                </p>
+
+                                <div class="card-footer">
+                                    <span class="ui-category">#UIDESIGN</span>
+                                    <div class="card-updates">
+                                        <img src="https://img.icons8.com/color/48/000000/topic--v1.png"/>
+                                        <span>12</span>
+                                    </div>
+                                </div>
+                            </div>
+
+                    
+                            <div class="card">
+                                <h6>Task</h6>
+                                <p class="task-info">Brandon Winger-Air, 6h ago</p>
+    
+                                <p class="task-desc">
+                                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatibus, porro.
+                                </p>
+    
+                                <div class="card-footer">
+                                    <span class="dev-category">#DEVELOPMENT</span>
+                                    <div class="card-updates">
+                                        <img src="https://img.icons8.com/color/48/000000/topic--v1.png"/>
+                                        <span>16</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
                     </div>
                 </section>
             </main>
