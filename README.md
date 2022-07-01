@@ -1,8 +1,10 @@
 # Web Design Example (HTML/CSS)
 
-# Demo - Note: If re-visiting press (Ctrl + F5) to see current updates.
+# Demo
 
 https://brandonwingerair.github.io/task-tracker-dashboard-page/
+
+Note: If re-visiting press keys (Ctrl + F5) to see current updates.
 
 ## Case Study
 
