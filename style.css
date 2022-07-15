@@ -484,3 +484,21 @@ footer a {
         margin: 2.5vw 0;
     }
 }
+
+@media screen and (max-width: 540px) {
+    nav, header {
+        display: none;
+    }
+
+    #app {
+        width: 85vw;
+        margin: 7vw auto 0;
+    }
+
+    section {
+        display: inline-block;
+        display: grid;
+        grid-template-columns: 1fr;
+        column-gap: 25px;
+    }
+}
