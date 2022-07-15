@@ -473,3 +473,14 @@ footer a {
     text-decoration: none;
     color: #424242;
 }
+
+@media screen and (max-width: 1660px) {
+    #app {
+        width: 94vw;
+        margin-top: 2.5vw;
+    }
+    
+    footer {
+        margin: 2.5vw 0;
+    }
+}
