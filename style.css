@@ -486,8 +486,29 @@ footer a {
 }
 
 @media screen and (max-width: 540px) {
-    nav, header {
+    nav {
         display: none;
+    }
+
+    main header {
+        margin-bottom: 30px;
+    }
+
+    #content-heading {
+        display: block;
+    }
+
+    #content-heading h3 {
+        margin-left: 0;
+        margin-top: 10px;
+    }
+
+    #heading-right {
+        display: none;
+    }
+
+    header {
+        display: block;
     }
 
     #app {
